@@ -53,6 +53,7 @@ public class SaveStatementTransaction {
             statementService.saveAllStatements(Set.copyOf(newStatement));
         });
     }
+
     @Scheduled(fixedRate = 1_000)
     public void getPaidInvoice() {
         Map<Long, Invoice> invoiceByAmount = invoiceService.getPendingInvoice()
@@ -74,9 +75,7 @@ public class SaveStatementTransaction {
                     Invoice invoice = invoiceByAmount.get(statement.getKredit());
                     invoiceMap.put(invoice.getUsername(), invoice.getId());
                     statementList.add(statement.getId());
-
                 });
-
         statementService.updateBulkStatement(statementList);
         invoiceService.updateInvoicesToPaid(invoiceMap.values());
 

@@ -35,8 +35,8 @@ public class SettlementService {
 
 	// Constants to avoid repetition
 	private static final String PHONE_ANDROID_VERSION = "13";
-	private static final String APP_VERSION_CODE = "250811";
-	private static final String APP_VERSION_NAME = "25.08.11";
+	private static final String APP_VERSION_CODE = "250819";
+	private static final String APP_VERSION_NAME = "25.09.18";
 	private static final String UI_MODE = "dark";
 	private static final String APP_REG_ID = "cW7nrZuwSTmHMUq38nsYDt:APA91bHtuZh8Rtb4tu4-QkspgkW8WbHF2ZLMHqNesxgpdIDj502JW927xzpwbKPeBt11SYvkFHtHKCVM3rhUkjCku4g5Bm0CD76ACG5ABGy-JfVXdMi09sU";
 	private static final String PHONE_UUID = "cW7nrZuwSTmHMUq38nsYDt";
