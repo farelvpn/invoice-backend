@@ -1,5 +1,10 @@
 # INVOICE MANAGEMENT SYSTEM INTEGERATED WITH ORDERKUOTA
 
+![photo_2025-07-13_15-31-07](https://github.com/user-attachments/assets/73b6b170-56ab-4963-86bb-2ff7988c6d6d)
+
+DONATE IF THIS REPO HELP YOU!!!!
+
+
 ## 1. Deskripsi
 > Aplikasi ini adalah sistem maajement invoice yang terintegerasi dengan Order Kuota
 > Aplikasi ini dibuat untuk mempermudah dalam mengelola invoice yang dihasilkan dari transaksi yang dilakukan melalui Order Kuota.
